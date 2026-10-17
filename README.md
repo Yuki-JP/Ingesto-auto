@@ -6,7 +6,7 @@ Adaptação do [Ingesto](https://github.com/noar-justedit/ingesto), de Arnaud Au
 
 ## Instalação
 
-Os instaladores serão publicados em [Releases](https://github.com/Yuki-JP/Ingesto-auto/releases). As edições antigas precisam receber o novo instalador uma vez para habilitar a consulta de futuras atualizações pelo aplicativo.
+[Baixar o instalador mais recente](https://github.com/Yuki-JP/Ingesto-auto/releases/latest). As edições antigas precisam receber o novo instalador uma vez para habilitar a consulta de futuras atualizações pelo aplicativo.
 
 Feche o Ingesto somente após terminar as cópias. Abra o instalador na conta do Windows que utilizará o programa, sem executar como administrador. Preferências e importações locais são preservadas; a instalação anterior fica guardada como backup.
 
@@ -20,4 +20,6 @@ Os instaladores não têm assinatura Authenticode do Windows. A assinatura do ma
 
 Cada instalador inclui `FONTES-IngestoProjetos.zip` com as fontes correspondentes da adaptação, instalador, detector e ferramentas, além das licenças do aplicativo e dependências. Nenhuma mídia, preferência pessoal ou chave privada de publicação deve ser enviada a este repositório.
 
-A disponibilidade do canal depende de uma Release publicada com o instalador e seu manifesto assinado. A criação deste README não significa que a primeira Release já está disponível.
+## Estado do canal
+
+Primeira Release publicada em 17/10/2026: [Ingesto Projetos 2026-10-17.1](https://github.com/Yuki-JP/Ingesto-auto/releases/tag/projetos-2026-10-17.1). Manifesto público, assinatura, tamanho e SHA256 conferidos; consulta online testada com edição atual e edição anterior. A instalação e o detector em outras máquinas ainda precisam ser validados no ambiente de uso.
