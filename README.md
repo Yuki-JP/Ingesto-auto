@@ -16,6 +16,12 @@ O aplicativo consulta `releases/latest/download/latest.json`. A publicação usa
 
 Os instaladores não têm assinatura Authenticode do Windows. A assinatura do manifesto é verificada pelo aplicativo e não substitui um certificado de editor reconhecido pelo Windows.
 
+## Desinstalação
+
+A partir da edição 2026-10-17.2, instalar/atualizar o aplicativo registra **Ingesto Projetos** na lista de aplicativos do Windows. Termine qualquer backup, feche o Ingesto e escolha **Desinstalar**. Alternativamente, abra `Desinstalar-Ingesto-Projetos.exe` na pasta instalada.
+
+Projetos, cartões, backups e mídias importadas do celular são preservados. A opção de remover preferências vem desmarcada e cobre somente os arquivos de configuração. Arquivos alterados ou desconhecidos são preservados. A experiência completa na outra máquina ainda precisa de validação no ambiente de uso.
+
 ## Código-fonte e licenças
 
 Cada instalador inclui `FONTES-IngestoProjetos.zip` com as fontes correspondentes da adaptação, instalador, detector e ferramentas, além das licenças do aplicativo e dependências. Nenhuma mídia, preferência pessoal ou chave privada de publicação deve ser enviada a este repositório.
@@ -23,3 +29,5 @@ Cada instalador inclui `FONTES-IngestoProjetos.zip` com as fontes correspondente
 ## Estado do canal
 
 Primeira Release publicada em 17/10/2026: [Ingesto Projetos 2026-10-17.1](https://github.com/Yuki-JP/Ingesto-auto/releases/tag/projetos-2026-10-17.1). Manifesto público, assinatura, tamanho e SHA256 conferidos; consulta online testada com edição atual e edição anterior. A instalação e o detector em outras máquinas ainda precisam ser validados no ambiente de uso.
+
+Edição mais recente: [2026-10-17.2, com desinstalador](https://github.com/Yuki-JP/Ingesto-auto/releases/tag/projetos-2026-10-17.2). Canal online validado para atualização da edição 2026-10-17.1.
